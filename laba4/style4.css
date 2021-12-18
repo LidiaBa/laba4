@@ -1,0 +1,86 @@
+body
+{
+margin: auto;
+padding: auto;
+background-color: #edeef7;
+font-family: times new roman;
+font-size: 16pt;
+}
+#table{
+margin-left: auto;
+margin-right: auto;
+font-size: 16pt;
+width: 90%;
+background-color: #F0FFFF;
+border: 2px solid black;
+border-collapse: collapse;
+z-index: 1;
+}
+#table th, td {
+border: 2px solid black;
+padding: 10px;
+background: #F5FFFA;
+}
+.tableOfbuttons {
+width: 100%;
+}
+.tableOfbuttons td {
+border: white;
+text-align: center;
+}
+#fieldset_creation {
+display: none;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+background-color: white;
+border: 2px solid black;
+border-radius: 10px;
+width: 500px;
+z-index: 2;
+}
+
+#fieldset_deletion {
+display: none;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+text-align: center;
+background-color: white;
+border: 2px solid black;
+border-radius: 10px;
+width: 700px;
+z-index: 3;
+}
+.modal-title {
+text-align: center;
+}
+.input {
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+#table td {
+text-align: center;
+}
+#prisvoit{
+display: flex;
+justify-content: center;
+}
+
+#kr_to_close_fieldset_deletion{
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: red;
+font-size: 20 pt;
+}
+#kr_to_close_fieldset_creation {
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: red;
+font-size: 20 pt;
+}
