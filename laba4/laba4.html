@@ -1,24 +1,25 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Библиотечный список 4</title>
-    <link href="style4.css" rel="stylesheet" >
+    <title>Список студентов ЦПИ</title>
+    <link href="css4.css" rel="stylesheet" />
     <script src="js4.js"></script>
 
 </head>
 
 <body>
 
+
 <fieldset id="fieldset_deletion">
     <p>Вы действительно желаете удалить данного студента из списка?</p>
-    <table class="tableOfbuttons">
+    <table class="table_buttons">
         <tr>
             <td><button id="delete_student" type="button">Да</button></td>
             <td><button id="to_close_fieldset_deletion" type="button">Нет</button></td>
         </tr>
     </table>
-    <button type="button" id="kr_to_close_fieldset_deletion"><font color="white">x</font></button>
+    <button type="button" id="kr_to_close_fieldset_deletion">x</button>
 </fieldset><br />
 
 
@@ -33,15 +34,15 @@
             <input id="group" type="text" placeholder="Группа" class="input"/><br /><br />
             <input id="phone" type="text" placeholder="Телефон" class="input"/><br /><br />
         </center>
-        <table class="tableOfbuttons">
+        <table class="table_buttons">
             <tr>
                 <td><button id="submit" type="button">Отправить</button></td>
                 <td><input type="reset" value="Очистить"/></td>
             </tr>
         </table>
-        <div >
-        <button type="button" id="kr_to_close_fieldset_creation" ><font color="white">x</font></button>
-        </div>
+
+        <button type="button" id="kr_to_close_fieldset_creation">x</button>
+
     </form>
 </fieldset><br />
 
@@ -59,13 +60,13 @@
     </tr>
     </thead>
 
-    <tbody id="main_table">
+    <tbody  id="main_table">
 
     </tbody>
 
 </table><br />
 
-<div id="prisvoit"><button id = "to_view_form_add" type="button">Добавить</button></div>
+<div id="ADD"><button id = "to_view_form_add" type="button">Добавить</button></div>
 
 </body>
 </html>
