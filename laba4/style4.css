@@ -1,86 +1,90 @@
-body
 {
-margin: auto;
-padding: auto;
-background-color: #edeef7;
-font-family: times new roman;
-font-size: 16pt;
+	margin: auto;
+	padding: auto;
+	background-color: #edeef7;
+	font-size: 16pt;
+	font-family: times new roman;
 }
+
 #table{
-margin-left: auto;
-margin-right: auto;
-font-size: 16pt;
-width: 90%;
-background-color: #F0FFFF;
-border: 2px solid black;
-border-collapse: collapse;
-z-index: 1;
+
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16pt;
+	width: 90%;
+	background-color: #F0FFFF;
+	border: 2px solid black;
+	border-collapse: collapse;
+    z-index: 1;
 }
+
 #table th, td {
-border: 2px solid black;
-padding: 10px;
-background: #F5FFFA;
+	border: 2px solid black;
+	padding: 10px;
 }
-.tableOfbuttons {
-width: 100%;
+
+.table_buttons td {
+	border: white;
+    text-align: center;
 }
-.tableOfbuttons td {
-border: white;
-text-align: center;
+.table_buttons {
+	width: 100%;
 }
+
 #fieldset_creation {
-display: none;
-position: absolute;
-top:50%;
-left:50%;
-transform:translate(-50%, -50%);
-background-color: white;
-border: 2px solid black;
-border-radius: 10px;
-width: 500px;
-z-index: 2;
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top:50%;
+    left:50%;
+	transform:translate(-50%, -50%);
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 500px;
 }
 
 #fieldset_deletion {
-display: none;
-position: absolute;
-top:50%;
-left:50%;
-transform:translate(-50%, -50%);
-text-align: center;
-background-color: white;
-border: 2px solid black;
-border-radius: 10px;
-width: 700px;
-z-index: 3;
-}
-.modal-title {
-text-align: center;
-}
-.input {
-margin-left: auto;
-margin-right: auto;
-width: 80%;
-}
-#table td {
-text-align: center;
-}
-#prisvoit{
-display: flex;
-justify-content: center;
+	display: none;
+	position: absolute;
+	z-index: 3;
+	top:50%;
+    left:50%;
+	transform:translate(-50%, -50%);
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 700px;
 }
 
-#kr_to_close_fieldset_deletion{
-position: absolute;
-top: 10px;
-right: 10px;
-background-color: red;
-font-size: 20 pt;
+.input {
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
 }
-#kr_to_close_fieldset_creation {
-position: absolute;
-top: 10px;
-right: 10px;
-background-color: red;
-font-size: 20 pt;
+
+.modal-title {
+	position: flex;
+	text-align: center;
+}
+
+#table td {
+	text-align: center;
+}
+
+#Centr {
+	margin: 0 auto;
+}
+
+#ADD {
+  display: flex;
+  justify-content: center;
+}
+
+#kr_to_close_fieldset_deletion, #kr_to_close_fieldset_creation {
+	position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4c5b;
 }
